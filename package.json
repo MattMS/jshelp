@@ -1,0 +1,29 @@
+{
+  "author": "Matt McKellar-Spence",
+  "bin": {
+    "jshelp": "./bin/jshelp"
+  },
+  "bugs": {
+    "url": "https://github.com/MattMS/jshelp/issues"
+  },
+  "description": "Javascript help.",
+  "devDependencies": {
+    "coffee-script": "^1.9.2"
+  },
+  "homepage": "https://github.com/MattMS/jshelp",
+  "keywords": [
+    "help",
+    "man"
+  ],
+  "license": "MIT",
+  "main": "./bin/jshelp",
+  "name": "jshelp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattMS/jshelp.git"
+  },
+  "scripts": {
+    "test": "coffee test/main.coffee.md"
+  },
+  "version": "0.1.0"
+}
